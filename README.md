@@ -12,6 +12,10 @@
 
 	npm install
 
+># Compilar archivos 
+    
+    npm run watch
+
 ># Componentes
 
 Trabajar los componentes .vue dentro de assets/src.

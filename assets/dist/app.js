@@ -1929,6 +1929,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   /* 
     Contiene (retorna) las variables que son utilizadas en elementos de la vista.
@@ -1940,17 +1943,17 @@ __webpack_require__.r(__webpack_exports__);
   },
 
   /**
-   * 
+   * Logica de negocio, manipulacion de informacion
    */
   watch: {},
 
   /**
-   * 
+   * Componentes del Vendedores.vue
    */
   components: {},
 
   /*
-    Metodos computados, gestionan la paginacion
+    Metodos computados (gestionan la paginacion)
   */
   computed: {},
 
@@ -1965,6 +1968,7 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var _this = this;
 
+    //Test axios
     axios.get('https://api.coindesk.com/v1/bpi/currentprice.json').then(function (response) {
       return _this.info = response;
     });
@@ -15744,9 +15748,12 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _vm._v("\n  " + _vm._s(_vm.info) + "\n    "),
-    _vm._m(0)
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "container" }, [
+      _vm._v("\n      " + _vm._s(_vm.info) + "\n    ")
+    ])
   ])
 }
 var staticRenderFns = [
@@ -28056,8 +28063,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\0-Proyectos\2-MiniSAP_Inicial_01022019\2-Sistema\1-Versiones\0-Configuracion\1-MiniSAP__0.0.0_ConfiguracionSPA-Vue-Axios\assets\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\0-Proyectos\2-MiniSAP_Inicial_01022019\2-Sistema\1-Versiones\0-Configuracion\1-MiniSAP__0.0.0_ConfiguracionSPA-Vue-Axios\assets\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\0-Proyectos\2-MiniSAP_Inicial_01022019\2-Sistema\1-Versiones\MiniSAP__0.0.0\assets\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\0-Proyectos\2-MiniSAP_Inicial_01022019\2-Sistema\1-Versiones\MiniSAP__0.0.0\assets\src\app.scss */"./src/app.scss");
 
 
 /***/ })

@@ -14,6 +14,7 @@
     <!--Principal-->
     <div id="app">
 		{{msg}}
+        <!--Componente vendedor-->
 		<vendedor></vendedor>
 	</div>
     <!--Scripts JS-->

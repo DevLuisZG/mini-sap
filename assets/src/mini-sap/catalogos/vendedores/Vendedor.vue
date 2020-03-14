@@ -1,6 +1,5 @@
 <template>
-  <div class="container">
-    {{ info }}
+  <div>
       <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
           <div class="form-row">
               <div class="col-md-3"></div>
@@ -16,6 +15,10 @@
           </div>  
           &nbsp;
       </form>
+      <!--Test data axios-->
+      <div class="container">
+        {{ info }}
+      </div>
   </div>
 </template>
 
@@ -30,19 +33,19 @@
       };
     },
     /**
-     * 
+     * Logica de negocio, manipulacion de informacion
      */
     watch:{
 
     },
     /**
-     * 
+     * Componentes del Vendedores.vue
      */
     components: {
         
     },
     /*
-      Metodos computados, gestionan la paginacion
+      Metodos computados (gestionan la paginacion)
     */
     computed: {
       
@@ -57,9 +60,8 @@
       Se ejcuta al cargar la vista 
     */
     mounted() {
-      axios
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      .then(response => (this.info = response))
+      //Test axios
+      axios.get('https://api.coindesk.com/v1/bpi/currentprice.json').then(response => (this.info = response))
     }
   };
 </script> 

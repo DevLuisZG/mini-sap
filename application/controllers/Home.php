@@ -1,8 +1,19 @@
 <!--
-	@autor: Luis Zepeda
-	@nota: Generar docuemntacion mediante algun API
-	ejemplo:
-		https://openapi-generator.tech/docs/installation
+	@empresa: MiniSAP
+	@proyecto: MiniSAP
+	@autores: {
+		luis: "Luis Zepeda (zepedagonzalezluis@gmail.com)",
+	}
+    @nombre_archivo: Home.php
+    @fecha_creacion: 15-03-2020
+    @descripcion: Controlador de la vista home.php y componente Vendedor.vue
+    @metodos: 1
+	@relacion_archivos: {
+		nombre.ext, nombre.ext
+	}
+    Modificaciones: {
+		dd/mm/aaaa: Descripción.
+	}
 -->
 <?php
 	/**

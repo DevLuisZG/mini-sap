@@ -12,6 +12,7 @@ require('../node_modules/popper.js/dist/umd/popper.min.js');
  */
 vue = require('vue');
 axios = require('axios');
+swal = require('sweetalert2');
 /**
  * 3. Registro de componentes
  * vue.component('nombre_componente', require('ruta_componente').default);
@@ -26,7 +27,7 @@ const app = new vue({
     el: '#app',
     data: {
         menu: 0,
-        msg: 'Proyecto MiniSAP-ERP'
+        nombreProyecto: 'MiniSAP-ERP'
     },
     created() {
 

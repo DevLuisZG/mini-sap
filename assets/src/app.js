@@ -25,6 +25,7 @@ vue.component('vendedor', require('./mini-sap/catalogos/vendedores/Vendedor.vue'
 const app = new vue({
     el: '#app',
     data: {
+        menu: 0,
         msg: 'Proyecto MiniSAP-ERP'
     },
     created() {

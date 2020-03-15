@@ -27969,6 +27969,7 @@ vue.component('vendedor', __webpack_require__(/*! ./mini-sap/catalogos/vendedore
 var app = new vue({
   el: '#app',
   data: {
+    menu: 0,
     msg: 'Proyecto MiniSAP-ERP'
   },
   created: function created() {}
